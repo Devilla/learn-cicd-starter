@@ -19,5 +19,7 @@ jobs:
           go-version: "1.24.2"
 
       - name: Print Go version
-        run: go version
+        run:  go version
 
+      - name: Print Success
+	run:  (exit 0)
