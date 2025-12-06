@@ -20,6 +20,3 @@ jobs:
 
       - name: Print Go version
         run:  go version
-
-      - name: Print Success
-	      run:  (exit 1)
